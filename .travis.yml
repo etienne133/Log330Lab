@@ -13,7 +13,6 @@ before_script:
     - echo $TRAVIS_REPO_SLUG
 
 script:
-    - go list ./... | grep -v vendor | xargs -n1 -I {} -P 4 go test -v -covermode=count -coverprofile=../../../{}/profile.coverprofile {}
     - go build
     - go test
 after_success:

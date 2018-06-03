@@ -33,7 +33,7 @@ func TestMeanHb(t *testing.T){
 
 func TestMeanInvalid(t *testing.T){
 	mean := mean(InvalidIntArray)
-	if !(math.Abs(mean-InvalidMean) > .1) {
+	if (math.Abs(mean-InvalidMean) > .1) {
 		t.Errorf("Expected : %v Actual : %v ", exceptedMean,mean)
 	}
 }
