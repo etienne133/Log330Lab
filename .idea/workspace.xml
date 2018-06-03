@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84019c48-b0c3-43bc-9889-be3c0f087f94" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Log330TP1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Variance_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/average_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stdvariation_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/travis.yml" />
-      <change beforePath="$PROJECT_DIR$/Main.go" afterPath="$PROJECT_DIR$/Main.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +29,8 @@
       <file leaf-file-name="Variance_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Variance_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="205">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -44,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stdvariation_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stdvariation_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stdvariation_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -56,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travis.yml">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -69,8 +63,8 @@
       <file leaf-file-name="average_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/average_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -81,8 +75,8 @@
       <file leaf-file-name="function_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="e#14#41#0" expanded="true" />
               </folding>
@@ -132,10 +126,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/function_test.go" />
-        <option value="$PROJECT_DIR$/average_test.go" />
         <option value="$PROJECT_DIR$/Main.go" />
         <option value="$PROJECT_DIR$/Variance_test.go" />
+        <option value="$PROJECT_DIR$/function_test.go" />
+        <option value="$PROJECT_DIR$/average_test.go" />
         <option value="$PROJECT_DIR$/stdvariation_test.go" />
         <option value="$PROJECT_DIR$/travis.yml" />
       </list>
@@ -147,9 +141,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="260" />
+    <option name="y" value="46" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -186,8 +180,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Etienne\go\src\Log330TP1" />
+      <recent name="C:\Users\Etienne\go\src\Log330TP1\Test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,14 +202,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Test.TestStdVariationHb in stdvariation_test.go">
-    <configuration name="TestDistancePowerTwoInvalid in Variance_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestMeanInvalid in average_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestDistancePowerTwoInvalid$" />
+      <pattern value="^TestMeanInvalid$" />
     </configuration>
     <configuration name="TestStdVariationHb in stdvariation_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
@@ -248,19 +248,19 @@
       <pattern value="^TestVarianceInvalid$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestDistancePowerTwoInvalid in Variance_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestVarianceInvalid in Variance_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestStdVariationHb in stdvariation_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestStdVariationInvalid in stdvariation_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestStdVariationLb in stdvariation_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestVarianceInvalid in Variance_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestStdVariationHb in stdvariation_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestStdVariationInvalid in stdvariation_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestStdVariationLb in stdvariation_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestMeanInvalid in average_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Go Test.TestStdVariationHb in stdvariation_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestStdVariationLb in stdvariation_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestStdVariationInvalid in stdvariation_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestVarianceInvalid in Variance_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestDistancePowerTwoInvalid in Variance_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestMeanInvalid in average_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestStdVariationLb in stdvariation_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestStdVariationInvalid in stdvariation_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestVarianceInvalid in Variance_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -268,11 +268,8 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDistancePowerTwoInvalid_in_Variance_test_go - 2018.06.03 at 17h 04m 24s.xml">
-      <configuration name="TestDistancePowerTwoInvalid in Variance_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDistancePowerTwolb_in_Variance_test_go - 2018.06.03 at 16h 59m 08s.xml">
-      <configuration name="TestDistancePowerTwolb in Variance_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMeanInvalid_in_average_test_go - 2018.06.03 at 18h 23m 11s.xml">
+      <configuration name="TestMeanInvalid in average_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestStdVariationHb_in_stdvariation_test_go - 2018.06.03 at 17h 33m 25s.xml">
       <configuration name="TestStdVariationHb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
@@ -281,6 +278,12 @@
       <configuration name="TestStdVariationHb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestStdVariationHb_in_stdvariation_test_go - 2018.06.03 at 17h 43m 08s.xml">
+      <configuration name="TestStdVariationHb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStdVariationHb_in_stdvariation_test_go - 2018.06.03 at 18h 42m 50s.xml">
+      <configuration name="TestStdVariationHb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStdVariationHb_in_stdvariation_test_go - 2018.06.03 at 18h 42m 54s.xml">
       <configuration name="TestStdVariationHb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestStdVariationInvalid_in_stdvariation_test_go - 2018.06.03 at 17h 29m 36s.xml">
@@ -295,20 +298,17 @@
     <history-entry file="TestStdVariationLb_in_stdvariation_test_go - 2018.06.03 at 17h 43m 02s.xml">
       <configuration name="TestStdVariationLb in stdvariation_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestVarianceInvalid_in_Variance_test_go - 2018.06.03 at 17h 04m 27s.xml">
-      <configuration name="TestVarianceInvalid in Variance_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="260" y="46" width="1400" height="990" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24240232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35182998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -424,46 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/average_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variance_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stdvariation_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -474,11 +434,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/function_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/average_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Variance_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stdvariation_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
