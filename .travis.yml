@@ -5,16 +5,11 @@ go:
   - master
 
 before_script:
-    # Print buld info.
-    - echo $TRAVIS_COMMIT
-    - echo $TRAVIS_TAG
-    - echo $TRAVIS_BRANCH
-    - echo $TRAVIS_BUILD_NUMBER
-    - echo $TRAVIS_REPO_SLUG
-
+  - test-reporter before-build
 script:
-    - go build
-    - go test
+  - go test -coverprofile c.out
+after_script:
+  - test-reporter after-build --coverage-input-type gocov --exit-code $TRAVIS_TEST_RESULT
 after_success:
     # Merge all coverage reports located in subdirectories and put them under: gover.coverprofile
     - gover
