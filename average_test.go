@@ -11,7 +11,9 @@ var exceptedLowerBound = -100000.0;
 var HigherBoundValues = []int{100000,100000,100000,100000,100000,100000,100000,100000,100000,100000}
 var exceptedHigherBound = 100000.0;
 
-var InvalidMean = 10.0;
+var InvalidIntArray = []int{};
+
+var InvalidMean = 0.0;
 
 
 func TestMeanLb(t *testing.T){
@@ -30,7 +32,7 @@ func TestMeanHb(t *testing.T){
 }
 
 func TestMeanInvalid(t *testing.T){
-	mean := mean(HigherBoundValues)
+	mean := mean(InvalidIntArray)
 	if !(math.Abs(mean-InvalidMean) > .1) {
 		t.Errorf("Expected : %v Actual : %v ", exceptedMean,mean)
 	}

@@ -1,9 +1,11 @@
 language: go
 
-before_install:
+go:
+  - "1.9.x"
+  - master
 
 before_script:
-    # Print build info.
+    # Print buld info.
     - echo $TRAVIS_COMMIT
     - echo $TRAVIS_TAG
     - echo $TRAVIS_BRANCH
@@ -13,7 +15,7 @@ before_script:
 script:
     - go list ./... | grep -v vendor | xargs -n1 -I {} -P 4 go test -v -covermode=count -coverprofile=../../../{}/profile.coverprofile {}
     - go build
-    - go test 
+    - go test
 after_success:
     # Merge all coverage reports located in subdirectories and put them under: gover.coverprofile
     - gover
