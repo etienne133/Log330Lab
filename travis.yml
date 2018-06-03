@@ -1,0 +1,22 @@
+language: go
+
+before_install:
+
+before_script:
+    # Print build info.
+    - echo $TRAVIS_COMMIT
+    - echo $TRAVIS_TAG
+    - echo $TRAVIS_BRANCH
+    - echo $TRAVIS_BUILD_NUMBER
+    - echo $TRAVIS_REPO_SLUG
+
+script:
+    - go list ./... | grep -v vendor | xargs -n1 -I {} -P 4 go test -v -covermode=count -coverprofile=../../../{}/profile.coverprofile {}
+    - go build
+    - go test 
+after_success:
+    # Merge all coverage reports located in subdirectories and put them under: gover.coverprofile
+    - gover
+
+    # Send code coverage report to coveralls.io
+    - goveralls -service=travis-ci -coverprofile=gover.coverprofile

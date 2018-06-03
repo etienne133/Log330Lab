@@ -55,6 +55,8 @@ func variance(distance float64, values []int) float64{
 
 	var variance float64;
 
+	fmt.Println(distance)
+	fmt.Println(float64(len(values))-1.0)
 	variance = distance/(float64(len(values))-1.0); // erreur sur cette ligne. Elle a été oublier
 	return variance;
 }
