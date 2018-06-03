@@ -31,7 +31,7 @@ var VarianceValuesLb = []int{
 
 var exceptedDistancePower2Lb = 900464678542.86;
 var exceptedAverageLb = -477432.8571;
-var exceptedVarianceLb = -150077446423.81;
+var exceptedVarianceLb = 150077446423.81;
 
 
 
