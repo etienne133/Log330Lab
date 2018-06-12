@@ -11,6 +11,7 @@ var InvalidVariance = 0;
 var ExceptedStdVariation = 387398.3046;
 
 
+
 func TestStdVariationHb(t *testing.T){
 	stdVariantion := stdVariation(VarianceHb)
 	if math.Abs(ExceptedStdVariation-stdVariantion) > 1 {
