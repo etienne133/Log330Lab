@@ -7,6 +7,7 @@ import(
 	"math"
 	"fmt"
 	"strings"
+	"errors"
 )
 
 func main(){
@@ -16,6 +17,7 @@ func main(){
 
 	fmt.Println("Press '1' to chose Tp1")
 	fmt.Println("Press '2' to chose Tp2")
+	fmt.Println("Press '3' to chose Tp3")
 
 	fmt.Scanln(&input)
 	input = strings.TrimRight(input, "\n")
@@ -24,6 +26,8 @@ func main(){
 		tp1()
 	}else if input == "2"{
 		tp2()
+	}else if input == "3"{
+		tp3()
 	}
 
 
@@ -74,6 +78,107 @@ func tp2(){
 	fmt.Println("R :", r)
 	fmt.Println(checkRDegree(r))
 }
+
+func tp3(){
+	file,_ := os.Open(os.Args[1])
+	reader := csv.NewReader(file)
+	lines,_ := reader.ReadAll()
+
+	reader.Comma = ','
+	var values [][]float64
+	for i := range lines {
+		x,_ := strconv.ParseFloat(lines[i][0],64)
+		y,_ := strconv.ParseFloat(lines[i][1],64)
+
+		nextValue := [][]float64{{x, y}}
+		values = append(values,nextValue...)
+	}
+
+	var averageX float64
+	var averageY float64
+
+	for i := 0; i < len(values); i++ {
+		averageX += values[i][0]
+		averageY += values[i][1]
+	}
+	n := float64(len(values))
+	averageX = averageX /n
+	averageY = averageY /n
+
+	b1,_ :=  GenerateB1(values, averageX, averageY)
+	b0,_ :=  GenerateB0(b1, averageX, averageY)
+
+	fmt.Println("B1 :", b1)
+	fmt.Println("B0 :", b0)
+
+	fmt.Println("Enter a float value : ")
+
+	var value float64
+	fmt.Scanf("%f", &value)
+	//y=b0+b1x
+
+	var input string
+
+	fmt.Println("Press x or y to generate in term of x or y ")
+	fmt.Scan(&input)
+	input = strings.TrimRight(input, "\n")
+
+	var response float64
+
+	if input == "x"{
+		response = CalculateInTermsOfX(b0,b1,value)
+		fmt.Println("response in term of x : ", response)
+
+	}else if input == "y"{
+		response,_ = CalculateInTermsOfY(b0,b1,value)
+		fmt.Println("response in term of y : ", response)
+	}
+
+
+}
+
+
+
+func GenerateB1(values [][]float64, averageX float64, averageY float64)(float64,error){
+
+	var numerator  =0.0
+	var denominator float64 =0.0
+
+
+	fmt.Println("average x", averageX)
+	fmt.Println("average y", averageY)
+
+
+	for i := 0; i < len(values); i++ {
+		numerator += (values[i][0]-averageX) *(values[i][1]-averageY)
+		denominator +=(values[i][0]-averageX) *(values[i][0]-averageX)
+	}
+
+	if denominator ==0 {
+		return -1000, errors.New("Error division by 0")
+	}
+
+	var b1 = numerator/ denominator
+
+	return b1,nil
+}
+
+func GenerateB0(b1 float64, averageX float64, averageY float64)(float64,error){
+
+	return averageY -b1*averageX,nil
+}
+
+func CalculateInTermsOfX(b0 float64, b1 float64, x float64)float64{
+	return  b0+b1*x
+}
+
+func CalculateInTermsOfY(b0 float64, b1 float64, y float64)(float64,error){
+	if b1 ==0 {
+		return -1000, errors.New("Error division by 0")
+	}
+	return (y-b0)/b1,nil
+}
+
 
 func PowerN(value float64, n int)float64{
 	if(n == 0){
