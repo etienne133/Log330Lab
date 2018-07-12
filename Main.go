@@ -10,6 +10,12 @@ import(
 	"errors"
 )
 
+type student struct{
+	nom string
+	effort [6]float64
+	note float64
+}
+
 func main(){
 
 	var input string
@@ -18,6 +24,7 @@ func main(){
 	fmt.Println("Press '1' to chose Tp1")
 	fmt.Println("Press '2' to chose Tp2")
 	fmt.Println("Press '3' to chose Tp3")
+	fmt.Println("Press '4' to chose Tp3")
 
 	fmt.Scanln(&input)
 	input = strings.TrimRight(input, "\n")
@@ -28,12 +35,15 @@ func main(){
 		tp2()
 	}else if input == "3"{
 		tp3()
+	}else if input == "4"{
+		tp4()
 	}
 
 
 
 
 }
+
 func tp1(){
 	    var vals []int
 		file,_ := os.Open(os.Args[1])
@@ -137,11 +147,64 @@ func tp3(){
 
 }
 
+func tp4(){
+	file,_ := os.Open(os.Args[1])
+	reader := csv.NewReader(file)
+	lines,_ := reader.ReadAll()
 
+	var students []student
+	for i := range lines {
+
+		var student student
+
+
+		student.nom =  lines[i][0]
+		student.effort[0],_ = strconv.ParseFloat(lines[i][1],64)
+		student.effort[1],_ = strconv.ParseFloat(lines[i][2],64)
+		student.effort[2],_ = strconv.ParseFloat(lines[i][3],64)
+		student.effort[3],_ = strconv.ParseFloat(lines[i][4],64)
+		student.effort[4],_ = strconv.ParseFloat(lines[i][5],64)
+		student.effort[5],_ = strconv.ParseFloat(lines[i][6],64)
+		//student.effort[6],_ = strconv.ParseFloat(lines[i][6],64)
+
+		student.note,_ = strconv.ParseFloat(lines[i][7],64)
+
+		students = append(students,student)
+	}
+
+
+
+	for i:= 0; i< 6 ; i++ {
+		data,_:=StudentToTab(i,students)
+		correlation := Correlation(data)
+		fmt.Println(checkRDegree(correlation))
+
+	}
+
+
+}
+
+func StudentToTab(week int, students []student)([][]float64,error){
+	var values [][]float64
+
+	if(week <0){
+		return nil, errors.New("Invalid week value")
+	}
+
+	for i:=0;i<len(students);i++{
+		x:= students[i].effort[week]
+		y:= students[i].note
+
+		nextValue := [][]float64{{x, y}}
+		values = append(values,nextValue...)
+
+	}
+	return values,nil
+}
 
 func GenerateB1(values [][]float64, averageX float64, averageY float64)(float64,error){
 
-	var numerator  =0.0
+	var numerator = 0.0
 	var denominator float64 =0.0
 
 
@@ -179,7 +242,6 @@ func CalculateInTermsOfY(b0 float64, b1 float64, y float64)(float64,error){
 	return (y-b0)/b1,nil
 }
 
-
 func PowerN(value float64, n int)float64{
 	if(n == 0){
 		return 1;
@@ -192,6 +254,7 @@ func PowerN(value float64, n int)float64{
 }
 
 func Correlation(values [][]float64)float64{
+
 	var sumX float64
 	var sumXPower2 float64
 	var sumYPower2 float64
@@ -217,21 +280,21 @@ func Correlation(values [][]float64)float64{
 	return numerator/denominator
 }
 
-func checkRDegree(r float64) string {
+func checkRDegree(r float64) (string,error) {
 	absR := math.Abs(r)
 	switch {
 	case absR<0.2:
-		return "Nulle à faible"
+		return "Nulle à faible",nil
 	case absR<0.4:
-		return"Faible à moyenne."
+		return"Faible à moyenne.",nil
 	case absR<0.6:
-		return"Moyenne à forte"
+		return"Moyenne à forte",nil
 	case absR<0.8:
-		return"Forte à très forte"
+		return"Forte à très forte",nil
 	case absR<=1:
-		return"Très forte à parfaite"
+		return"Très forte à parfaite",nil
 	default:
-		return"Valeur invalide"
+		return"Valeur invalide",errors.New("erreur r invalide")
 	}
 }
 
