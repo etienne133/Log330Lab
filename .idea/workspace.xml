@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84019c48-b0c3-43bc-9889-be3c0f087f94" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/checkrdegree_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/joel_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentToTab_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/intervalle_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/joelIntervalle_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/regressionStdDeviation_test.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FULLUM ETIENNE TP1 - Formulaire de projet V2 .xlsx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Log330TP1.exe" afterPath="$PROJECT_DIR$/Log330TP1.exe" />
       <change beforePath="$PROJECT_DIR$/Main.go" afterPath="$PROJECT_DIR$/Main.go" />
-      <change beforePath="$PROJECT_DIR$/TP3vals.csv" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,46 +22,38 @@
       <file leaf-file-name="Main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="255" column="5" lean-forward="false" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
               <folding>
                 <element signature="e#14#92#0" expanded="true" />
                 <element signature="n#!!block;n#tp1#0" expanded="false" />
                 <element signature="n#!!block;n#tp2#0" expanded="false" />
                 <element signature="n#!!block;n#tp3#0" expanded="false" />
+                <element signature="n#!!block;n#tp4#0" expanded="false" />
+                <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+                <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
                 <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
                 <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
                 <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
                 <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
                 <element signature="n#!!block;n#PowerN#0" expanded="false" />
+                <element signature="n#!!block;n#Correlation#0" expanded="false" />
+                <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
                 <element signature="n#!!block;n#mean#0" expanded="false" />
                 <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
                 <element signature="n#!!block;n#variance#0" expanded="false" />
-                <element signature="n#!!block;n#stdVariation#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="joel_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joel_test.go">
+      <file leaf-file-name="intervalle_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intervalle_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="173">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="80" selection-end-column="5" />
               <folding>
-                <element signature="e#14#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentToTab_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studentToTab_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#14#35#0" expanded="true" />
+                <element signature="e#14#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,21 +62,21 @@
       <file leaf-file-name="checkrdegree_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkrdegree_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
+            <state relative-caret-position="147">
               <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function_test.go">
+      <file leaf-file-name="joelIntervalle_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joelIntervalle_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="294">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +84,8 @@
       <file leaf-file-name="correlation_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/correlation_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -101,11 +93,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stdvariation_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stdvariation_test.go">
+      <file leaf-file-name="regressionStdDeviation_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regressionStdDeviation_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="294">
+              <caret line="65" column="62" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="62" />
+              <folding>
+                <element signature="e#14#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateInTermOfX_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generateInTermOfX_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateB1_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generateB1_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valsTp2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/valsTp2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateB0_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generateB0_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,6 +163,7 @@
       <find>prin</find>
       <find>std</find>
       <find>checkrDegree</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -154,9 +189,12 @@
         <option value="$PROJECT_DIR$/generateIntermOfY_test.go" />
         <option value="$PROJECT_DIR$/StudentToTab_test.go" />
         <option value="$PROJECT_DIR$/checkrdegree_test.go" />
-        <option value="$PROJECT_DIR$/Main.go" />
         <option value="$PROJECT_DIR$/studentToTab_test.go" />
         <option value="$PROJECT_DIR$/joel_test.go" />
+        <option value="$PROJECT_DIR$/regressionStdDeviation_test.go" />
+        <option value="$PROJECT_DIR$/intervalle_test.go" />
+        <option value="$PROJECT_DIR$/Main.go" />
+        <option value="$PROJECT_DIR$/joelIntervalle_test.go" />
       </list>
     </option>
   </component>
@@ -166,7 +204,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -210,8 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,66 +295,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestJoelCT3 in joel_test.go">
-    <configuration name="TestJoelCT11 in joel_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.TestCTJoel1 in joelIntervalle_test.go">
+    <configuration name="TestCTJoel1 in joelIntervalle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestJoelCT11$" />
+      <pattern value="^TestCTJoel1$" />
     </configuration>
-    <configuration name="TestJoelCT2 in joel_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestCTJoel2 in joelIntervalle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestJoelCT2$" />
+      <pattern value="^TestCTJoel2$" />
     </configuration>
-    <configuration name="TestJoelCT3 in joel_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestCTJoel3 in joelIntervalle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestJoelCT3$" />
+      <pattern value="^TestCTJoel3$" />
     </configuration>
-    <configuration name="TestStudentToTabInvalide in studentToTab_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestInvervalleInvalid in intervalle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestStudentToTabInvalide$" />
+      <pattern value="^TestInvervalleInvalid$" />
     </configuration>
-    <configuration name="TestStudentToTabValide in studentToTab_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestInvervalleLb in intervalle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Log330TP1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="Log330TP1" />
-      <pattern value="^TestStudentToTabValide$" />
+      <pattern value="^TestInvervalleLb$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestStudentToTabInvalide in studentToTab_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestStudentToTabValide in studentToTab_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestJoelCT11 in joel_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestJoelCT2 in joel_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestJoelCT3 in joel_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestInvervalleLb in intervalle_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestInvervalleInvalid in intervalle_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestCTJoel2 in joelIntervalle_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestCTJoel1 in joelIntervalle_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestCTJoel3 in joelIntervalle_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestJoelCT3 in joel_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestJoelCT2 in joel_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestJoelCT11 in joel_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestStudentToTabValide in studentToTab_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestStudentToTabInvalide in studentToTab_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestCTJoel1 in joelIntervalle_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestCTJoel2 in joelIntervalle_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestCTJoel3 in joelIntervalle_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestInvervalleInvalid in intervalle_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestInvervalleLb in intervalle_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -324,51 +362,51 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJoelCT11_in_joel_test_go - 2018.07.12 at 17h 25m 00s.xml">
-      <configuration name="TestJoelCT11 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel1_in_joelIntervalle_test_go - 2018.07.22 at 16h 58m 50s.xml">
+      <configuration name="TestCTJoel1 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestJoelCT2_in_joel_test_go - 2018.07.12 at 17h 25m 04s.xml">
-      <configuration name="TestJoelCT2 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel1_in_joelIntervalle_test_go - 2018.07.22 at 16h 59m 05s.xml">
+      <configuration name="TestCTJoel1 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestJoelCT3_in_joel_test_go - 2018.07.12 at 17h 25m 07s.xml">
-      <configuration name="TestJoelCT3 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel1_in_joelIntervalle_test_go - 2018.07.22 at 16h 59m 17s.xml">
+      <configuration name="TestCTJoel1 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestJoelCT3_in_joel_test_go - 2018.07.12 at 17h 25m 43s.xml">
-      <configuration name="TestJoelCT3 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel1_in_joelIntervalle_test_go - 2018.07.22 at 16h 59m 41s.xml">
+      <configuration name="TestCTJoel1 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestJoelCT3_in_joel_test_go - 2018.07.12 at 17h 25m 54s.xml">
-      <configuration name="TestJoelCT3 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel2_in_joelIntervalle_test_go - 2018.07.22 at 16h 56m 59s.xml">
+      <configuration name="TestCTJoel2 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestJoelCT3_in_joel_test_go - 2018.07.12 at 17h 35m 14s.xml">
-      <configuration name="TestJoelCT3 in joel_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel2_in_joelIntervalle_test_go - 2018.07.22 at 16h 57m 46s.xml">
+      <configuration name="TestCTJoel2 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRDegreeLb_in_checkrdegree_test_go - 2018.07.12 at 15h 52m 51s.xml">
-      <configuration name="TestRDegreeLb in checkrdegree_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel2_in_joelIntervalle_test_go - 2018.07.22 at 16h 58m 00s.xml">
+      <configuration name="TestCTJoel2 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestStudentToTabInvalide_in_studentToTab_test_go - 2018.07.12 at 17h 23m 17s.xml">
-      <configuration name="TestStudentToTabInvalide in studentToTab_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel2_in_joelIntervalle_test_go - 2018.07.22 at 16h 58m 15s.xml">
+      <configuration name="TestCTJoel2 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestStudentToTabValide_in_studentToTab_test_go - 2018.07.12 at 17h 23m 22s.xml">
-      <configuration name="TestStudentToTabValide in studentToTab_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel2_in_joelIntervalle_test_go - 2018.07.22 at 16h 58m 36s.xml">
+      <configuration name="TestCTJoel2 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestStudentToTabValide_in_studentToTab_test_go - 2018.07.12 at 17h 24m 03s.xml">
-      <configuration name="TestStudentToTabValide in studentToTab_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCTJoel3_in_joelIntervalle_test_go - 2018.07.22 at 16h 56m 52s.xml">
+      <configuration name="TestCTJoel3 in joelIntervalle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -399,32 +437,34 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/Main.go</url>
-          <line>255</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Main.go</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/intervalle_test.go</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/joelIntervalle_test.go</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/average_test.go" />
-    <entry file="file://$PROJECT_DIR$/Test/function_test.go" />
-    <entry file="file://$USER_HOME$/Downloads/function_test (1).go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -442,15 +482,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,15 +516,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,15 +543,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,15 +591,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,15 +630,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,15 +671,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,15 +705,19 @@
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,38 +744,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valsTp2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/correlation.go" />
-    <entry file="file://$PROJECT_DIR$/TP3vals.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3vals.csv" />
     <entry file="file://$PROJECT_DIR$/average_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variance_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,17 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14574">
           <caret line="710" column="0" lean-forward="false" selection-start-line="710" selection-start-column="0" selection-end-line="710" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkrdegree_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,106 +764,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateInTermOfX_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateB0_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateB1_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correlation_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studentToTab_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="252">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
-            <element signature="e#14#35#0" expanded="true" />
+            <element signature="e#14#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stdvariation_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="42">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joel_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Variance_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5vals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateB0_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="255" column="5" lean-forward="false" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+        <state relative-caret-position="409">
+          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding>
             <element signature="e#14#92#0" expanded="true" />
             <element signature="n#!!block;n#tp1#0" expanded="false" />
             <element signature="n#!!block;n#tp2#0" expanded="false" />
             <element signature="n#!!block;n#tp3#0" expanded="false" />
+            <element signature="n#!!block;n#tp4#0" expanded="false" />
+            <element signature="n#!!block;n#Intervalle#0" expanded="false" />
+            <element signature="n#!!block;n#StudentToTab#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB1#0" expanded="false" />
             <element signature="n#!!block;n#GenerateB0#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfX#0" expanded="false" />
             <element signature="n#!!block;n#CalculateInTermsOfY#0" expanded="false" />
             <element signature="n#!!block;n#PowerN#0" expanded="false" />
+            <element signature="n#!!block;n#Correlation#0" expanded="false" />
+            <element signature="n#!!block;n#checkRDegree#0" expanded="false" />
             <element signature="n#!!block;n#mean#0" expanded="false" />
             <element signature="n#!!block;n#distancePowerTwo#0" expanded="false" />
             <element signature="n#!!block;n#variance#0" expanded="false" />
-            <element signature="n#!!block;n#stdVariation#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joel_test.go">
+    <entry file="file://$PROJECT_DIR$/regressionStdDeviation_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="294">
+          <caret line="65" column="62" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="62" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkrdegree_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateInTermOfX_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateB1_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valsTp2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlation_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intervalle_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joelIntervalle_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

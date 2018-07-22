@@ -25,6 +25,8 @@ func main(){
 	fmt.Println("Press '2' to chose Tp2")
 	fmt.Println("Press '3' to chose Tp3")
 	fmt.Println("Press '4' to chose Tp3")
+	fmt.Println("Press '5' to chose Tp3")
+
 
 	fmt.Scanln(&input)
 	input = strings.TrimRight(input, "\n")
@@ -37,6 +39,8 @@ func main(){
 		tp3()
 	}else if input == "4"{
 		tp4()
+	}else if input == "5"{
+		tp5()
 	}
 
 
@@ -184,6 +188,86 @@ func tp4(){
 
 }
 
+func tp5(){
+	file,_ := os.Open(os.Args[1])
+	reader := csv.NewReader(file)
+	lines,_ := reader.ReadAll()
+
+	reader.Comma = ','
+	var values [][]float64
+
+	for i := range lines {
+
+		x,_ := strconv.ParseFloat(lines[i][0],64)
+		y,_ := strconv.ParseFloat(lines[i][1],64)
+
+		nextValue := [][]float64{{x, y}}
+		values = append(values,nextValue...)
+	}
+
+	var averageX float64
+	var averageY float64
+
+	for i := 0; i < len(values); i++ {
+		averageX += values[i][0]
+		averageY += values[i][1]
+	}
+	n := float64(len(values))
+	averageX = averageX /n
+	averageY = averageY /n
+
+	b1,_ :=  GenerateB1(values, averageX, averageY)
+	b0,_ :=  GenerateB0(b1, averageX, averageY)
+
+	fmt.Println("B1 :", b1)
+	fmt.Println("B0 :", b0)
+
+	varianceWithRegression,_ := VarianceWithRegression(values, b0,b1)
+	fmt.Println("Variance :", varianceWithRegression)
+
+	stdVar := stdVariation(varianceWithRegression)
+	fmt.Println("Stdvar :", stdVar)
+
+	Inter70,_ := Intervalle(1119, stdVar,1.108,values,averageX)
+
+	fmt.Println("Intervalle 70 :", Inter70)
+
+	Inter90,_ := Intervalle(1119, stdVar,1.860,values,averageX)
+
+	fmt.Println("Intervalle 90 :", Inter90)
+
+	fmt.Printf("Interval(Alpha=0.9) : [%.5f - %.5f]\n Interval(Alpha=0.7) : [%.5f - %.5f]",
+		CalculateInTermsOfX(b0,b1,1119)-Inter90,
+			CalculateInTermsOfX(b0,b1,1119)+Inter90,
+				CalculateInTermsOfX(b0,b1,1119)-Inter70,
+					CalculateInTermsOfX(b0,b1,1119)+Inter70)
+
+
+
+}
+
+func Intervalle(xk float64, stddev float64, AlphaByTwo float64, values [][]float64, average float64)(float64, error){
+
+	n := len(values)
+	if n == 0 {
+		return -1000, errors.New("Error division by 0")
+	}
+
+	denominator := 0.0
+
+	for i := 0; i < n; i++ {
+		denominator += PowerN(values[i][0]-average,2)
+	}
+
+	if denominator == 0 {
+		return -1000, errors.New("Error division by 0")
+	}
+
+
+	return 	stddev*AlphaByTwo*math.Sqrt(1.0+(1.0/float64(n))+(PowerN(xk-average,2)/(denominator))),nil
+
+}
+
 func StudentToTab(week int, students []student)([][]float64,error){
 	var values [][]float64
 
@@ -315,6 +399,20 @@ func distancePowerTwo(mean float64, values []int) float64{
 		distance += (float64(value)-mean)*(float64(value)-mean);
 	}
 	return distance;
+}
+
+func VarianceWithRegression(values [][]float64, b0 float64, b1 float64) (float64, error){
+	var distance float64
+
+	if len(values) == 1 {
+		return -1000, errors.New("Error division by 0")
+
+	}
+
+	for i := 0; i < len(values); i++ {
+		distance += PowerN(values[i][1]-b0-b1*values[i][0],2)
+	}
+	return distance/(float64(len(values))-1.0),nil
 }
 
 func variance(distance float64, values []int) float64{
